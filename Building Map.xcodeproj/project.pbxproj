@@ -14,6 +14,8 @@
 		C00602161BE180500015C877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00602151BE180500015C877 /* Assets.xcassets */; };
 		C00602191BE180500015C877 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00602171BE180500015C877 /* LaunchScreen.storyboard */; };
 		C00602241BE180500015C877 /* Building_MapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00602231BE180500015C877 /* Building_MapUITests.swift */; };
+		C006022F1BE1900E0015C877 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C006022E1BE1900E0015C877 /* MapViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C00602311BE81F210015C877 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00602301BE81F210015C877 /* Common.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		C006021F1BE180500015C877 /* Building MapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Building MapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C00602231BE180500015C877 /* Building_MapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Building_MapUITests.swift; sourceTree = "<group>"; };
 		C00602251BE180500015C877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C006022E1BE1900E0015C877 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C00602301BE81F210015C877 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 			children = (
 				C006020B1BE180500015C877 /* AppDelegate.swift */,
 				C006020D1BE180500015C877 /* ViewController.swift */,
+				C006022E1BE1900E0015C877 /* MapViewController.swift */,
+				C00602301BE81F210015C877 /* Common.swift */,
 				C006020F1BE180500015C877 /* Main.storyboard */,
 				C00602151BE180500015C877 /* Assets.xcassets */,
 				C00602171BE180500015C877 /* LaunchScreen.storyboard */,
@@ -202,6 +208,8 @@
 				C006020E1BE180500015C877 /* ViewController.swift in Sources */,
 				C00602141BE180500015C877 /* Building_Map.xcdatamodeld in Sources */,
 				C006020C1BE180500015C877 /* AppDelegate.swift in Sources */,
+				C00602311BE81F210015C877 /* Common.swift in Sources */,
+				C006022F1BE1900E0015C877 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
